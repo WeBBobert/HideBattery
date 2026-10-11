@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>BatteryHide</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>BatteryHide</string>
+			<key>footerText</key>
+			<string>Hide selected names from Battery usage rows. This changes the display only; usage tracking, totals and charts stay unchanged. Nothing is hidden until you choose names.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>Enable BatteryHide</string>
+			<key>key</key>
+			<string>Enabled</string>
+			<key>default</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Choose apps</string>
+			<key>detail</key>
+			<string>BHAppPickerController</string>
+			<key>isController</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Apply changes</string>
+			<key>action</key>
+			<string>refreshBatteryHide</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>First open Settings → Battery and scroll the app list. Then return here to choose discovered names. You can also add an exact name manually. This experimental filter supports UIKit table rows; gaps may remain and SwiftUI lists may not be affected.</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,9 @@
+Package: com.example.batteryhide
+Name: BatteryHide
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Description: User-configurable display filter for Settings Battery app rows.
+Maintainer: BatteryHide Project
+Author: BatteryHide Project
+Section: Tweaks
+Depends: firmware (>= 18.0), firmware (<< 19.0), mobilesubstrate, preferenceloader

@@ -14,4 +14,4 @@ No app is preselected. Choices are saved in com.example.batteryhide.
 Only Settings is injected. No app usage records are modified or deleted.
 Battery charts, totals, percentages and other usage surfaces remain unchanged.
 
-It’s working on my iPhone 11.
+It’s working on my iPhone 11, just download com.example.batteryhide_0.1.0_iphoneos-arm64.deb then share it to Sileo or Zebra and install it. 
